@@ -1,0 +1,330 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #0F2933;
+    
+    
+  }
+body * {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+header{
+    
+    display: flex;  
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color:#305E70;
+    justify-content: center;
+}
+.logo{
+   order: 2; 
+   justify-self: start;
+   flex-basis: 100px;
+   
+}
+ul>h1{
+    margin-top: 30px;
+    margin: 0;
+    flex-basis: 100%;
+    text-align: center;
+    order: 1;
+}
+nav{
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}   
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-basis: 100%;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+ul>li{
+    flex-basis: 20%;
+    margin: 1%;
+    order: 3;
+}
+li>a{
+    text-decoration: none;
+    display: block;
+    padding: .4em;
+    border-radius: .4em;    
+    background-color: #123746;
+    color: #fff;
+    text-align: center;
+    text-transform:capitalize;
+}
+table,tr,td,th {
+    border: 3px solid;
+    border-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 2px;
+
+}
+table{
+    border: 0;
+    box-shadow: 4px 4px 8px 8px #000;
+
+}
+fieldset{
+    width: 10%;
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background-color: #97B8C5;
+}
+input:checked {
+    border: 8px solid rgb(0, 255, 85);
+}
+.radio   {
+    appearance: none;
+    
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    top: 4px;
+    
+}
+.rlab{
+    color: #fff;
+}
+body{
+    margin: 0;
+}
+.cennik{
+    
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    flex-basis: 100%;
+    
+}
+.cennik>h6{
+    flex-basis: 51%;
+    align-items: center;
+}
+.cbd{
+    flex-basis: 51%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.cbd>button{
+    width: 130px;
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 2px ;
+    border-style:double;
+}
+.cbd>button:hover{
+    border-radius: 100px;
+
+}
+.cbd>button:active{
+    border-radius: 100px;
+    background-color: rgb(73, 255, 194);
+    transform: scale(0.9);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 75%;
+    order: 1;
+}
+table{
+    
+    background-color: #0F2933;
+    color: white;
+    flex-basis: 50%;
+
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 20%;
+    justify-content: center;
+}
+form *{
+    flex-basis: 51%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+aside{
+    flex-basis: 25%;
+    order: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.art1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.art2{
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h6{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 10px;
+}
+.art3{
+    margin-top: 0;
+    padding-top: 0;
+}
+#bigos{
+    animation-name: bigos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bigos{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(359deg)
+    }
+}
+table td{
+    text-align: center;
+}
+.img1{
+    width: 200px;
+}
+.img2{
+    width: 300px;
+}
+.img3{
+    width: 250px;
+}
+.img4{
+    width: 250px;    
+}
+.img5{
+    width: 250px;
+}
+footer{
+    flex-basis: 100%;
+    order: 10;
+    text-align: center;
+    background-color: #0F2933;
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+}
+.art{
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #5098b4;
+    margin: 10px;
+    box-shadow: 0px 0px 8px 8px;
+    text-align:justify;
+    border-radius: 10px;
+    border: 3px solid #000;
+
+}
+.art >p {
+    padding: 15px;
+}
+.art > h2{
+    flex-basis: 100%;
+    text-align: center;
+}
+@media (max-width:1024px){
+    .cennik{
+        width: 350px;
+
+    }
+    aside{
+        flex-basis: 38%;
+    }
+    main{
+        flex-basis: 62%;
+    }
+    .art{
+        flex-basis: 80%;
+
+    
+    }
+}
+@media (max-width:768px) {
+    .cennik{
+        position:relative;
+        flex-basis: 100%;
+    }
+    #bigos{
+        display: none;
+    }
+    .img1{
+        width: 150px;
+    }
+    .img2{
+        width: 225px;
+    }
+    .img3{
+        width: 175px;
+    }
+    .img4{
+        width: 175px;    
+    }
+    .img5{
+        width: 175px;
+    }
+    main{
+     flex-basis: 100%;
+
+    }
+}
+@media (max-width:480px) {
+    .logo{
+       max-width: 50px;
+       
+    }
+
+}

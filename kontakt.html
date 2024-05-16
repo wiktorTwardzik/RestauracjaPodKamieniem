@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <img src="img/logo.png" class="logo">
+                    <h1>RESTAURACJA POD KAMIENIEM</h1>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="bigos.html">przepis na bigos</a></li>
+                    <li><a href="kontakt.html">kontakt</a></li>
+     
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form method="post">
+                
+                <label for="imie" >Imię:</label>
+                <input type="text" id="imie" placeholder="imie" name="imie" value="" required>
+                <br>
+                <label for="nazwisko">Nazwisko:</label>
+                <input type="text" id="nazwisko" placeholder="nazwisko" name="nazwisko" value="" required>
+                <br>
+                <label for="mail">Email:</label>
+                <input type="email" id="email" placeholder="email" name="Email" value="" required>
+                <br>
+                <label for="wiek">Wiek:</label>
+                <input type="number" id="wiek" placeholder="wiek" name="wiek" value="18" min="0" max="200" required>
+                <br>
+                <fieldset>
+                    <input type="radio" name="plec" id="man" value="Mężczyzna" class="radio" checked>
+                    <label for="man" class="rlab">Meżczyzna</label>
+                    <br>
+                    <input type="radio" name="plec" id="woman" value="Kobieta" class="radio">
+                    <label for="woman" class="rlab">Kobieta</label>
+                    <br>
+                    <input type="radio" name="plec" id="diff" value="Inne" class="radio">
+                    <label for="diff" class="rlab">Inne</label>
+                </fieldset>
+                <button id="btnSub">Submit</button>
+                <p id="display1"></p>
+            </form>
+            
+        </main>
+
+    </div>
+</body>
+</html>
