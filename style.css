@@ -32,7 +32,7 @@ header{
    flex-basis: 100px;
    
 }
-ul>h1{
+nav>h1{
     margin-top: 30px;
     margin: 0;
     flex-basis: 100%;
@@ -49,12 +49,14 @@ nav ul{
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 80%;
     text-decoration: none;
     list-style: none;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-left: 0;
+
+    order:3;
 }
 ul>li{
     flex-basis: 20%;
