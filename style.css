@@ -303,6 +303,9 @@ footer{
     #bigos{
         display: none;
     }
+    .obrot{
+        display: none;
+    }
     .img1{
         width: 150px;
     }
